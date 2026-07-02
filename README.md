@@ -58,3 +58,12 @@ Domain randomization ranges and evaluation protocols are consistent with the pap
 
 License
 MIT License
+
+Acknowledgements
+
+This project uses and modifies the open-source environments from:
+
+- [panda_mujoco_gym](https://github.com/zichunxx/panda_mujoco_gym) by zichunxx  
+  (Open-Source Reinforcement Learning Environments Implemented in MuJoCo with Franka Manipulator)
+
+The `FrankaPushSparse-v0` environment is based on their implementation, with modifications made to support our domain randomization and generalization experiments.
