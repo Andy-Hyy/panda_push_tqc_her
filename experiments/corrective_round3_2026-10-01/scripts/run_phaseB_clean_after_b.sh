@@ -1,0 +1,33 @@
+#!/bin/bash
+# Only the missing predecessor-B clean-reset check. Does not rerun finished modes.
+set -u
+OUT="/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_round3_2026-10-01"
+PY="/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/.venv/bin/python"
+mkdir -p "$OUT/logs"
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export OPENBLAS_NUM_THREADS=1
+export VECLIB_MAXIMUM_THREADS=1
+export PYTHONUNBUFFERED=1
+status="$OUT/logs/phaseB_clean_after_b.status"
+echo running > "$status"
+pids=()
+for seed in 0 42 123; do
+  "$PY" "$OUT/scripts/phaseB_diagnose.py" --seed "$seed" --repeats 3 --threads 1 \
+    --modes clean_after_b \
+    > "$OUT/logs/phaseB_clean_after_b_seed${seed}.log" 2>&1 &
+  pids+=("$!")
+done
+fail=0
+for pid in "${pids[@]}"; do
+  if ! wait "$pid"; then
+    fail=1
+  fi
+done
+if [ "$fail" -ne 0 ]; then
+  echo failed > "$status"
+  echo FAILED
+  exit 1
+fi
+echo done > "$status"
+echo DONE

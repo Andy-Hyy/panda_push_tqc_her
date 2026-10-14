@@ -1,0 +1,8 @@
+{
+  "cases_sha256": "97763aa006833b60fdca028132879ba07b30dec755307e8498b931c4c6e76444",
+  "n_cases": 20,
+  "rule_id": "smallest_late_success_per_L_plus_L0.30_ep0_early_and_L0.80_ep2_double_fail",
+  "selection": "For each policy, the smallest episode at each L whose old H50 run failed and whose old H100 run succeeded after step 50. Plus L=0.30 episode 0 and L=0.80 episode 2.",
+  "spatial_h100_raw_sha256": "50b208cf56e5f61a86abc9a2a5c54057046305a84555f900af6264eb681fb92a",
+  "spatial_h50_raw_sha256": "9dc1e60011a616b06ba10f9a8af97b6d93c2df949bb4ecfdfae456ef8050d99e"
+}

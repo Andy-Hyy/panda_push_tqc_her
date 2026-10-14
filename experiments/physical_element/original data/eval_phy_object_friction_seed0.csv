@@ -1,0 +1,11 @@
+param_name,value,success_rate
+object_friction,0.05,0.975
+object_friction,0.2,0.975
+object_friction,0.5,0.975
+object_friction,0.8,0.975
+object_friction,1.0,0.995
+object_friction,1.2,0.9933333333333333
+object_friction,1.5,0.995
+object_friction,2.0,0.9933333333333333
+object_friction,2.5,0.9966666666666667
+object_friction,3.0,0.98

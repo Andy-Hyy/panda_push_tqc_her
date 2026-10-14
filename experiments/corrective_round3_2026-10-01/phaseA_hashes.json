@@ -1,0 +1,82 @@
+{
+  "checkpoint_seed0": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_project_physics_generalization/logs/batch512_her4_seed0_2025-06-17_13-50-58/final_model.zip",
+    "sha256": "ab38ff9c17dbde348f0d0048858d4753570c04b2e7f486cacf60135717f085bd",
+    "bytes": 6382931
+  },
+  "checkpoint_seed42": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_project_physics_generalization/logs/batch512_her4_seed42_2025-06-17_23-01-53/final_model.zip",
+    "sha256": "e7c4840645dae9949b40c2b58045888a354b8193d3d0ffea429ae1a3ba087f74",
+    "bytes": 6382939
+  },
+  "checkpoint_seed123": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_project_physics_generalization/logs/batch512_her4_seed123_2025-06-18_23-21-02/final_model.zip",
+    "sha256": "25f64416614872cddcf5dc83075b55fea5f32a81b4ab60caa17454de9f3ea966",
+    "bytes": 6382941
+  },
+  "panda_env.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/envs/panda_env.py",
+    "sha256": "76045e06159706fd6a00077a801158f6d583a794ec62411c36a4c8fde9221a36",
+    "bytes": 12526
+  },
+  "push.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/envs/push.py",
+    "sha256": "8ddfb1bdb47d72c80658bd4b434aafcd4a8e1563acebaf7859d10bfe5fcccea0",
+    "bytes": 719
+  },
+  "push.xml": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/assets/push.xml",
+    "sha256": "a5feb6af7c678b11254c05f1a41cf1bddd043b5c2fa93dfbb7c54171bce3f9cb",
+    "bytes": 1734
+  },
+  "panda_mocap.xml": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/assets/panda_mocap.xml",
+    "sha256": "8c1608812335d02b2b0c7178bc1aae91351cf2c890d1633a2748b352e3d7dd09",
+    "bytes": 15488
+  },
+  "domain_rand.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/utils/domain_rand.py",
+    "sha256": "48f726d07ebb3b262805ba779c1dbc0f5cdadbbd40c37669e160036f48a0bf1c",
+    "bytes": 3807
+  },
+  "registration___init__.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/__init__.py",
+    "sha256": "133904ee870845534940b7d683195c05ed3e0be8c4534b9083ae492327c15ca5",
+    "bytes": 521
+  },
+  "phase1_physical_2x2.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/scripts/phase1_physical_2x2.py",
+    "sha256": "6062461a57c37d19a89705f130e80468f43432d589d04a0839023cfa4b690af2",
+    "bytes": 19971
+  },
+  "phase2_delay_sweep.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/scripts/phase2_delay_sweep.py",
+    "sha256": "76604b8d2757e621c65a8e23a40c875fbc70b95da1462c5ee1810aa49983c0e6",
+    "bytes": 4779
+  },
+  "round2_common.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/scripts/round2_common.py",
+    "sha256": "b580314ce7da67b2cf84263a4ddfee4415c01c355f651e40959c538477ffcc60",
+    "bytes": 11973
+  },
+  "phase3_physical_ablation.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/scripts/phase3_physical_ablation.py",
+    "sha256": "b6485c340ce75fe989f1818a8d5bf03c22f75246d95ae373306d48322145c6c1",
+    "bytes": 6653
+  },
+  "phase4_spatial_horizon.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/scripts/phase4_spatial_horizon.py",
+    "sha256": "504ecfcb9b172401867362e780739e9f39c53f36a7e800e87698ac5616f313c7",
+    "bytes": 6041
+  },
+  "summarize_round2.py": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/scripts/summarize_round2.py",
+    "sha256": "81e964a6ea588e2eea65e4a41586928faa77804b93bb5876db7b1f135b8e7ad3",
+    "bytes": 29275
+  },
+  "spatial_data_provenance.md": {
+    "path": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/spatial_data_provenance.md",
+    "sha256": "84a1dda608d7663106cae8901cd56d1ba5ae6a4a20c014002ca119d820dc5dfa",
+    "bytes": 8232
+  }
+}

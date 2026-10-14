@@ -1,0 +1,40 @@
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[seed 42] loaded threads=1 cases=12
+[seed 42] clean_after_b S08 r0 success=1 steps=29
+[seed 42] clean_after_b S08 r1 success=1 steps=29
+[seed 42] clean_after_b S08 r2 success=1 steps=29
+[seed 42] clean_after_b S09 r0 success=1 steps=39
+[seed 42] clean_after_b S09 r1 success=1 steps=39
+[seed 42] clean_after_b S09 r2 success=1 steps=39
+[seed 42] clean_after_b S10 r0 success=0 steps=100
+[seed 42] clean_after_b S10 r1 success=0 steps=100
+[seed 42] clean_after_b S10 r2 success=0 steps=100
+[seed 42] clean_after_b S11 r0 success=0 steps=100
+[seed 42] clean_after_b S11 r1 success=0 steps=100
+[seed 42] clean_after_b S11 r2 success=0 steps=100
+[seed 42] clean_after_b S12 r0 success=0 steps=100
+[seed 42] clean_after_b S12 r1 success=0 steps=100
+[seed 42] clean_after_b S12 r2 success=0 steps=100
+[seed 42] clean_after_b S13 r0 success=0 steps=100
+[seed 42] clean_after_b S13 r1 success=0 steps=100
+[seed 42] clean_after_b S13 r2 success=0 steps=100
+[seed 42] clean_after_b S14 r0 success=0 steps=100
+[seed 42] clean_after_b S14 r1 success=0 steps=100
+[seed 42] clean_after_b S14 r2 success=0 steps=100
+[seed 42] clean_after_b S15 r0 success=0 steps=100
+[seed 42] clean_after_b S15 r1 success=0 steps=100
+[seed 42] clean_after_b S15 r2 success=0 steps=100
+[seed 42] clean_after_b S28 r0 success=1 steps=33
+[seed 42] clean_after_b S28 r1 success=1 steps=33
+[seed 42] clean_after_b S28 r2 success=1 steps=33
+[seed 42] clean_after_b S29 r0 success=1 steps=1
+[seed 42] clean_after_b S29 r1 success=1 steps=1
+[seed 42] clean_after_b S29 r2 success=1 steps=1
+[seed 42] clean_after_b S30 r0 success=0 steps=100
+[seed 42] clean_after_b S30 r1 success=0 steps=100
+[seed 42] clean_after_b S30 r2 success=0 steps=100
+[seed 42] clean_after_b S31 r0 success=0 steps=100
+[seed 42] clean_after_b S31 r1 success=0 steps=100
+[seed 42] clean_after_b S31 r2 success=0 steps=100

@@ -1,0 +1,381 @@
+{
+  "paired_rows": 1800,
+  "missing_sweep_keys": [],
+  "p2_successes": 454,
+  "matched_sweep_successes": 437,
+  "success_mismatch": 119,
+  "steps_mismatch": 188,
+  "success_and_steps": 114,
+  "success_only": 5,
+  "steps_only": 74,
+  "by_seed_success": {
+    "0": 36,
+    "42": 38,
+    "123": 45
+  },
+  "by_seed_steps": {
+    "0": 55,
+    "42": 66,
+    "123": 67
+  },
+  "by_delay_success": {
+    "1": 45,
+    "2": 36,
+    "3": 16,
+    "4": 7,
+    "5": 6,
+    "6": 2,
+    "7": 2,
+    "8": 1,
+    "9": 4
+  },
+  "by_delay_steps": {
+    "1": 95,
+    "2": 50,
+    "3": 14,
+    "4": 9,
+    "5": 9,
+    "6": 3,
+    "7": 2,
+    "8": 3,
+    "9": 3
+  },
+  "direction": {
+    "p2_1_sweep_0": 68,
+    "p2_0_sweep_1": 51
+  },
+  "stored_coordinate_mismatches": 0,
+  "reset_seed_mismatches": 0,
+  "horizon_mismatches": 0,
+  "p2_physics_not_default": 0,
+  "p0_vs_delay0": {
+    "n": 1800,
+    "success_mismatch": 0,
+    "steps_mismatch": 0,
+    "coord_mismatch": 0,
+    "p0_success": 1799,
+    "sweep_success": 1799
+  },
+  "p2_vs_partial": {
+    "official": 1800,
+    "partial": 1800,
+    "only_official": 0,
+    "only_partial": 0,
+    "value_diff": 0
+  },
+  "sweep_vs_partial": {
+    "official": 18000,
+    "partial": 18000,
+    "only_official": 0,
+    "only_partial": 0,
+    "value_diff": 0
+  },
+  "logs": {
+    "phase1_seed0.log": {
+      "bytes": 3288,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 96,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        475,
+        500,
+        525,
+        550,
+        575,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase1_seed123.log": {
+      "bytes": 3485,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 96,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        475,
+        500,
+        525,
+        550,
+        575,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase1_seed42.log": {
+      "bytes": 3387,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 96,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        475,
+        500,
+        525,
+        550,
+        575,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase2_seed0.log": {
+      "bytes": 10994,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 300,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase2_seed123.log": {
+      "bytes": 11606,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 300,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase2_seed42.log": {
+      "bytes": 11284,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 300,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase3_seed0.log": {
+      "bytes": 9699,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 240,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase3_seed123.log": {
+      "bytes": 10198,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 240,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase3_seed42.log": {
+      "bytes": 9939,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 240,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase4_seed0.log": {
+      "bytes": 18197,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 480,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase4_seed123.log": {
+      "bytes": 19182,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 480,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    },
+    "phase4_seed42.log": {
+      "bytes": 18672,
+      "from_episode": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "progress_count": 480,
+      "progress_monotonic": false,
+      "ends_at_600_blocks": [
+        500,
+        520,
+        540,
+        560,
+        580,
+        600
+      ],
+      "has_traceback": false
+    }
+  }
+}

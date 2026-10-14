@@ -1,0 +1,38 @@
+delay 0 latency 0.0s rate 0.99944444 change 
+delay 1 latency 0.5s rate 0.74611111 change -0.25333333
+delay 2 latency 1.0s rate 0.38166667 change -0.36444444
+delay 3 latency 1.5s rate 0.25166667 change -0.13000000
+delay 4 latency 2.0s rate 0.20666667 change -0.04500000
+delay 5 latency 2.5s rate 0.17722222 change -0.02944444
+delay 6 latency 3.0s rate 0.16055556 change -0.01666667
+delay 7 latency 3.5s rate 0.13888889 change -0.02166667
+delay 8 latency 4.0s rate 0.12555556 change -0.01333333
+delay 9 latency 4.5s rate 0.10777778 change -0.01777778
+spatial H50 L0.10 rate 1.00000000 median_steps 5.0000
+spatial H50 L0.20 rate 0.99944444 median_steps 5.0000
+spatial H50 L0.30 rate 0.99888889 median_steps 5.0000
+spatial H50 L0.40 rate 0.98833333 median_steps 5.0000
+spatial H50 L0.50 rate 0.93388889 median_steps 5.0000
+spatial H50 L0.60 rate 0.79833333 median_steps 5.0000
+spatial H50 L0.70 rate 0.65500000 median_steps 5.0000
+spatial H50 L0.80 rate 0.56111111 median_steps 5.0000
+spatial H100 L0.10 rate 1.00000000 median_steps 5.0000
+spatial H100 L0.20 rate 0.99944444 median_steps 5.0000
+spatial H100 L0.30 rate 0.99944444 median_steps 5.0000
+spatial H100 L0.40 rate 0.98888889 median_steps 5.0000
+spatial H100 L0.50 rate 0.94000000 median_steps 5.0000
+spatial H100 L0.60 rate 0.80277778 median_steps 5.0000
+spatial H100 L0.70 rate 0.66277778 median_steps 5.0000
+spatial H100 L0.80 rate 0.56666667 median_steps 5.0000
+distance H50 0-0.10 n 2541 rate 0.99960645
+distance H50 0.10-0.20 n 5232 rate 0.97801988
+distance H50 0.20-0.30 n 3633 rate 0.89595376
+distance H50 0.30-0.40 n 1872 rate 0.68162393
+distance H50 0.40-0.50 n 852 rate 0.33098592
+distance H50 >=0.50 n 270 rate 0.04814815
+distance H100 0-0.10 n 2541 rate 0.99960645
+distance H100 0.10-0.20 n 5232 rate 0.97878440
+distance H100 0.20-0.30 n 3633 rate 0.89925681
+distance H100 0.30-0.40 n 1872 rate 0.69284188
+distance H100 0.40-0.50 n 852 rate 0.34037559
+distance H100 >=0.50 n 270 rate 0.04814815

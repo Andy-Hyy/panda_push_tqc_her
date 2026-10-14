@@ -1,0 +1,9 @@
+ablation P1-all rate 0.87666667 from P1 0.00000000
+ablation P1-no-mass rate 0.95666667 from P1 0.08000000
+ablation P1-no-friction rate 0.85055556 from P1 -0.02611111
+ablation P1-no-damping rate 0.93166667 from P1 0.05500000
+ablation P1-no-gain rate 0.88722222 from P1 0.01055556
+ablation mass-only rate 0.91277778 from P1 0.03611111
+ablation friction-only rate 0.99611111 from P1 0.11944444
+ablation damping-only rate 0.97611111 from P1 0.09944444
+ablation gain-only rate 0.98888889 from P1 0.11222222

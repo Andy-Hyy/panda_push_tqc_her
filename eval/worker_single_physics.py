@@ -14,8 +14,8 @@ import mujoco
 import panda_mujoco_gym
 
 # --- 常量定义 ---
-BASE_PATH = os.path.dirname(__file__)
-ASSETS_PATH = os.path.join(BASE_PATH, "panda_mujoco_gym", "assets")
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ASSETS_PATH = os.path.join(REPO_ROOT, "panda_mujoco_gym", "assets")
 PUSH_XML_PATH = os.path.join(ASSETS_PATH, "push.xml")
 MOCAP_XML_PATH = os.path.join(ASSETS_PATH, "panda_mocap.xml")
 

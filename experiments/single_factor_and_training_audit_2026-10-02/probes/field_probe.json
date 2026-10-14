@@ -1,0 +1,668 @@
+{
+  "label": "current_tree_compile",
+  "push_xml": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/assets/push.xml",
+  "explicit_damping_joints_in_mocap": [
+    {
+      "name": null,
+      "class": null,
+      "damping": "1"
+    }
+  ],
+  "pristine": {
+    "dof": [
+      {
+        "dof": 0,
+        "joint": "joint1",
+        "damping": 1.0
+      },
+      {
+        "dof": 1,
+        "joint": "joint2",
+        "damping": 1.0
+      },
+      {
+        "dof": 2,
+        "joint": "joint3",
+        "damping": 1.0
+      },
+      {
+        "dof": 3,
+        "joint": "joint4",
+        "damping": 1.0
+      },
+      {
+        "dof": 4,
+        "joint": "joint5",
+        "damping": 1.0
+      },
+      {
+        "dof": 5,
+        "joint": "joint6",
+        "damping": 1.0
+      },
+      {
+        "dof": 6,
+        "joint": "joint7",
+        "damping": 1.0
+      },
+      {
+        "dof": 7,
+        "joint": "finger_joint1",
+        "damping": 1.0
+      },
+      {
+        "dof": 8,
+        "joint": "finger_joint2",
+        "damping": 1.0
+      },
+      {
+        "dof": 9,
+        "joint": "obj_joint",
+        "damping": 0.01
+      },
+      {
+        "dof": 10,
+        "joint": "obj_joint",
+        "damping": 0.01
+      },
+      {
+        "dof": 11,
+        "joint": "obj_joint",
+        "damping": 0.01
+      },
+      {
+        "dof": 12,
+        "joint": "obj_joint",
+        "damping": 0.01
+      },
+      {
+        "dof": 13,
+        "joint": "obj_joint",
+        "damping": 0.01
+      },
+      {
+        "dof": 14,
+        "joint": "obj_joint",
+        "damping": 0.01
+      }
+    ],
+    "obj_friction": [
+      1.0,
+      0.005,
+      0.0001
+    ],
+    "obj": {
+      "body": 1.0,
+      "inertia": [
+        0.0002666666666666667,
+        0.0002666666666666667,
+        0.0002666666666666667
+      ],
+      "invweight0": [
+        1.0,
+        3750.0
+      ]
+    },
+    "actuators": [
+      {
+        "name": "actuator1",
+        "gainprm": [
+          4500.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -4500.0,
+          -450.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "actuator2",
+        "gainprm": [
+          4500.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -4500.0,
+          -450.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "actuator3",
+        "gainprm": [
+          3500.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -3500.0,
+          -350.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "actuator4",
+        "gainprm": [
+          3500.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -3500.0,
+          -350.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "actuator5",
+        "gainprm": [
+          2000.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -2000.0,
+          -200.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "actuator6",
+        "gainprm": [
+          2000.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -2000.0,
+          -200.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "actuator7",
+        "gainprm": [
+          2000.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -2000.0,
+          -200.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "r_gripper_finger_joint",
+        "gainprm": [
+          500.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -500.0,
+          -10.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      },
+      {
+        "name": "l_gripper_finger_joint",
+        "gainprm": [
+          500.0,
+          0.0,
+          0.0
+        ],
+        "biasprm": [
+          0.0,
+          -500.0,
+          -10.0
+        ],
+        "biastype": 1,
+        "gaintype": 0
+      }
+    ]
+  },
+  "old_xml_mass_0.05": {
+    "body": 0.05,
+    "inertia": [
+      1.3333333333333335e-05,
+      1.3333333333333335e-05,
+      1.3333333333333335e-05
+    ],
+    "invweight0": [
+      20.0,
+      74999.99999999999
+    ]
+  },
+  "old_xml_friction_0.05": [
+    0.05,
+    0.005,
+    0.0001
+  ],
+  "old_xml_damping_0.001": [
+    {
+      "dof": 0,
+      "joint": "joint1",
+      "damping": 0.001
+    },
+    {
+      "dof": 1,
+      "joint": "joint2",
+      "damping": 0.001
+    },
+    {
+      "dof": 2,
+      "joint": "joint3",
+      "damping": 0.001
+    },
+    {
+      "dof": 3,
+      "joint": "joint4",
+      "damping": 0.001
+    },
+    {
+      "dof": 4,
+      "joint": "joint5",
+      "damping": 0.001
+    },
+    {
+      "dof": 5,
+      "joint": "joint6",
+      "damping": 0.001
+    },
+    {
+      "dof": 6,
+      "joint": "joint7",
+      "damping": 0.001
+    },
+    {
+      "dof": 7,
+      "joint": "finger_joint1",
+      "damping": 0.001
+    },
+    {
+      "dof": 8,
+      "joint": "finger_joint2",
+      "damping": 0.001
+    },
+    {
+      "dof": 9,
+      "joint": "obj_joint",
+      "damping": 0.01
+    },
+    {
+      "dof": 10,
+      "joint": "obj_joint",
+      "damping": 0.01
+    },
+    {
+      "dof": 11,
+      "joint": "obj_joint",
+      "damping": 0.01
+    },
+    {
+      "dof": 12,
+      "joint": "obj_joint",
+      "damping": 0.01
+    },
+    {
+      "dof": 13,
+      "joint": "obj_joint",
+      "damping": 0.01
+    },
+    {
+      "dof": 14,
+      "joint": "obj_joint",
+      "damping": 0.01
+    }
+  ],
+  "old_xml_gain_0": [
+    {
+      "name": "actuator1",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -4500.0,
+        -450.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator2",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -4500.0,
+        -450.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator3",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -3500.0,
+        -350.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator4",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -3500.0,
+        -350.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator5",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator6",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator7",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "r_gripper_finger_joint",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -500.0,
+        -10.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "l_gripper_finger_joint",
+      "gainprm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -500.0,
+        -10.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    }
+  ],
+  "old_xml_gain_2": [
+    {
+      "name": "actuator1",
+      "gainprm": [
+        9000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -4500.0,
+        -450.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator2",
+      "gainprm": [
+        9000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -4500.0,
+        -450.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator3",
+      "gainprm": [
+        7000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -3500.0,
+        -350.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator4",
+      "gainprm": [
+        7000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -3500.0,
+        -350.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator5",
+      "gainprm": [
+        4000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator6",
+      "gainprm": [
+        4000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "actuator7",
+      "gainprm": [
+        4000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -2000.0,
+        -200.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "r_gripper_finger_joint",
+      "gainprm": [
+        1000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -500.0,
+        -10.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    },
+    {
+      "name": "l_gripper_finger_joint",
+      "gainprm": [
+        1000.0,
+        0.0,
+        0.0
+      ],
+      "biasprm": [
+        0.0,
+        -500.0,
+        -10.0
+      ],
+      "biastype": 1,
+      "gaintype": 0
+    }
+  ],
+  "writer_C_mass_0.05": {
+    "body": 0.05,
+    "inertia": [
+      1.3333333333333335e-05,
+      1.3333333333333335e-05,
+      1.3333333333333335e-05
+    ],
+    "invweight0": [
+      20.0,
+      74999.99999999999
+    ]
+  },
+  "writer_C_vs_old_xml_inertia_maxabs": 0.0,
+  "writer_C_vs_old_xml_mass_abs": 0.0,
+  "new_friction_0.05": [
+    0.05,
+    0.005,
+    0.0001
+  ],
+  "friction_tail_unchanged": true,
+  "old_friction_equals_new": true,
+  "new_damping_0.001": [
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    1e-05,
+    1e-05,
+    1e-05,
+    1e-05,
+    1e-05,
+    1e-05
+  ],
+  "old_damping_0.001": [
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.001,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "damping_maxabs_old_vs_new": 0.00999
+}

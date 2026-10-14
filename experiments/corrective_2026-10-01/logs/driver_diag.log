@@ -1,0 +1,13 @@
+1790831003 start phase2_seed0 pid 46808
+1790831003 start phase4_seed0 pid 46811
+1790831003 start phase2_seed42 pid 46814
+1790831003 start phase4_seed42 pid 46817
+1790831003 start phase2_seed123 pid 46820
+1790831003 start phase4_seed123 pid 46823
+1790834340 ok phase4_seed42
+1790834761 ok phase4_seed123
+1790835031 ok phase4_seed0
+1790842117 ok phase2_seed42
+1790842777 ok phase2_seed123
+1790842957 ok phase2_seed0
+1790842959 summarize delay/spatial failed

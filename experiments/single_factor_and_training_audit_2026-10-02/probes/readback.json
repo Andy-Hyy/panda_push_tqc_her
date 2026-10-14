@@ -1,0 +1,74 @@
+[
+  {
+    "factor": "object_mass",
+    "value": "0.05",
+    "mass_read": "0.050000000000000003",
+    "friction_read": [
+      "1",
+      "0.0050000000000000001",
+      "0.0001"
+    ],
+    "damping_scale_read": "1",
+    "obj_dof_damping_read": "0.01",
+    "expected_obj_dof_damping": "0.01",
+    "gain_scale_read": "1",
+    "bias_unchanged": "1",
+    "success": "1",
+    "steps_used": "5",
+    "finite": true
+  },
+  {
+    "factor": "object_friction",
+    "value": "0.05",
+    "mass_read": "1",
+    "friction_read": [
+      "0.050000000000000003",
+      "0.0050000000000000001",
+      "0.0001"
+    ],
+    "damping_scale_read": "1",
+    "obj_dof_damping_read": "0.01",
+    "expected_obj_dof_damping": "0.01",
+    "gain_scale_read": "1",
+    "bias_unchanged": "1",
+    "success": "1",
+    "steps_used": "4",
+    "finite": true
+  },
+  {
+    "factor": "joint_damping_scale",
+    "value": "0.001",
+    "mass_read": "1",
+    "friction_read": [
+      "1",
+      "0.0050000000000000001",
+      "0.0001"
+    ],
+    "damping_scale_read": "0.001",
+    "obj_dof_damping_read": "1.0000000000000001e-05",
+    "expected_obj_dof_damping": "1.0000000000000001e-05",
+    "gain_scale_read": "1",
+    "bias_unchanged": "1",
+    "success": "1",
+    "steps_used": "5",
+    "finite": true
+  },
+  {
+    "factor": "actuator_gain_scale",
+    "value": "0",
+    "mass_read": "1",
+    "friction_read": [
+      "1",
+      "0.0050000000000000001",
+      "0.0001"
+    ],
+    "damping_scale_read": "1",
+    "obj_dof_damping_read": "0.01",
+    "expected_obj_dof_damping": "0.01",
+    "gain_scale_read": "0",
+    "bias_unchanged": "1",
+    "success": "1",
+    "steps_used": "4",
+    "finite": true
+  }
+]

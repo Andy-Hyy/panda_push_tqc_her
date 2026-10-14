@@ -1,0 +1,81 @@
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[seed 123] mode formal threads 1 protocol e72dd7e83d71
+[pretest] P1 forward episode 0 success 1 steps 5
+[pretest] P1 forward episode 1 success 1 steps 1
+[pretest] P1 forward episode 2 success 1 steps 5
+[pretest] P1 forward episode 3 success 1 steps 12
+[pretest] P1 forward episode 4 success 1 steps 7
+[pretest] P1 forward episode 5 success 1 steps 6
+[pretest] P1 forward episode 6 success 1 steps 1
+[pretest] P1 forward episode 7 success 1 steps 5
+[pretest] P1 reverse episode 7 matched
+[pretest] P1 reverse episode 6 matched
+[pretest] P1 reverse episode 5 matched
+[pretest] P1 reverse episode 4 matched
+[pretest] P1 reverse episode 3 matched
+[pretest] P1 reverse episode 2 matched
+[pretest] P1 reverse episode 1 matched
+[pretest] P1 reverse episode 0 matched
+[pretest] P2 forward episode 0 success 1 steps 16
+[pretest] P2 forward episode 1 success 1 steps 1
+[pretest] P2 forward episode 2 success 0 steps 100
+[pretest] P2 forward episode 3 success 0 steps 100
+[pretest] P2 forward episode 4 success 0 steps 100
+[pretest] P2 forward episode 5 success 0 steps 100
+[pretest] P2 forward episode 6 success 1 steps 1
+[pretest] P2 forward episode 7 success 0 steps 100
+[pretest] P2 reverse episode 7 matched
+[pretest] P2 reverse episode 6 matched
+[pretest] P2 reverse episode 5 matched
+[pretest] P2 reverse episode 4 matched
+[pretest] P2 reverse episode 3 matched
+[pretest] P2 reverse episode 2 matched
+[pretest] P2 reverse episode 1 matched
+[pretest] P2 reverse episode 0 matched
+[resume] P0 existing episode 0 reproduced
+[seed 123] P0 475/600
+[seed 123] P0 500/600
+[seed 123] P0 525/600
+[seed 123] P0 550/600
+[seed 123] P0 575/600
+[seed 123] P0 600/600
+[seed 123] P1 25/600
+[seed 123] P1 50/600
+[seed 123] P1 75/600
+Traceback (most recent call last):
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_round3_2026-10-01/scripts/phaseE_formal.py", line 639, in <module>
+    main()
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_round3_2026-10-01/scripts/phaseE_formal.py", line 633, in main
+    formal(model, pristine, ids, rows, protocol_sha, args.seed, args.skip_pretest)
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_round3_2026-10-01/scripts/phaseE_formal.py", line 591, in formal
+    row = run_one(
+          ^^^^^^^^
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_round3_2026-10-01/scripts/phaseE_formal.py", line 338, in run_one
+    env, base = make_named_env()
+                ^^^^^^^^^^^^^^^^
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_round3_2026-10-01/scripts/phaseC_mass_implementation.py", line 211, in make_named_env
+    env = gym.make("FrankaPushSparse-v0", **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/phaseE_py/sitecustomize.py", line 53, in make
+    return original(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/.venv/lib/python3.12/site-packages/gymnasium/envs/registration.py", line 742, in make
+    env = env_creator(**env_spec_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/envs/push.py", line 16, in __init__
+    super().__init__(
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/envs/panda_env.py", line 48, in __init__
+    super().__init__(
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/.venv/lib/python3.12/site-packages/gymnasium_robotics/envs/robot_env.py", line 280, in __init__
+    super().__init__(**kwargs)
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/.venv/lib/python3.12/site-packages/gymnasium_robotics/envs/robot_env.py", line 78, in __init__
+    self._initialize_simulation()
+  File "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/envs/panda_env.py", line 89, in _initialize_simulation
+    self.model = self._mujoco.MjModel.from_xml_path(self.fullpath)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/phaseE_py/sitecustomize.py", line 42, in from_xml_path
+    return original_xml(filename, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: mjParseXML: resource not found via provider or OS filesystem: '/tmp/panda_assets_local/push.xml'

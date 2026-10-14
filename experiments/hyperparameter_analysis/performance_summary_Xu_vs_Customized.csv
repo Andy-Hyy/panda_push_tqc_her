@@ -1,0 +1,3 @@
+,80%_step,90%_step,FinalMean(%),FinalStd(%)
+"Xu config (batch=512, k=4)",147324,180576,99.85,0.06
+"Customized (batch=256, k=8)",123009,154276,99.84,0.15

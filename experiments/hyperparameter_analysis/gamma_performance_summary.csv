@@ -1,0 +1,4 @@
+Config (Gamma),SampleEff_80%_steps,SampleEff_95%_steps,Asymptotic_Mean,Asymptotic_Std
+0.90,,,,
+0.95 (Baseline),,,,
+0.99,,,,

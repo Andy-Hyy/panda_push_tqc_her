@@ -1,0 +1,44 @@
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[pilot seed 0] B mass_only ep 43 success=1 steps=1
+[pilot seed 0] C mass_only ep 43 success=1 steps=1
+[pilot seed 0] A joint_physical ep 43 success=1 steps=1
+[pilot seed 0] B joint_physical ep 43 success=1 steps=1
+[pilot seed 0] C joint_physical ep 43 success=1 steps=1
+[pilot seed 0] A mass_only ep 44 success=0 steps=100
+[pilot seed 0] B mass_only ep 44 success=1 steps=5
+[pilot seed 0] C mass_only ep 44 success=1 steps=5
+[pilot seed 0] A joint_physical ep 44 success=0 steps=100
+[pilot seed 0] B joint_physical ep 44 success=1 steps=5
+[pilot seed 0] C joint_physical ep 44 success=1 steps=5
+[pilot seed 0] A mass_only ep 45 success=1 steps=7
+[pilot seed 0] B mass_only ep 45 success=1 steps=5
+[pilot seed 0] C mass_only ep 45 success=1 steps=5
+[pilot seed 0] A joint_physical ep 45 success=1 steps=9
+[pilot seed 0] B joint_physical ep 45 success=1 steps=6
+[pilot seed 0] C joint_physical ep 45 success=0 steps=100
+[pilot seed 0] A mass_only ep 46 success=1 steps=15
+[pilot seed 0] B mass_only ep 46 success=1 steps=5
+[pilot seed 0] C mass_only ep 46 success=1 steps=5
+[pilot seed 0] A joint_physical ep 46 success=1 steps=5
+[pilot seed 0] B joint_physical ep 46 success=1 steps=5
+[pilot seed 0] C joint_physical ep 46 success=1 steps=5
+[pilot seed 0] A mass_only ep 47 success=0 steps=100
+[pilot seed 0] B mass_only ep 47 success=1 steps=6
+[pilot seed 0] C mass_only ep 47 success=1 steps=6
+[pilot seed 0] A joint_physical ep 47 success=1 steps=7
+[pilot seed 0] B joint_physical ep 47 success=1 steps=6
+[pilot seed 0] C joint_physical ep 47 success=1 steps=6
+[pilot seed 0] A mass_only ep 48 success=1 steps=5
+[pilot seed 0] B mass_only ep 48 success=1 steps=5
+[pilot seed 0] C mass_only ep 48 success=1 steps=5
+[pilot seed 0] A joint_physical ep 48 success=0 steps=100
+[pilot seed 0] B joint_physical ep 48 success=1 steps=5
+[pilot seed 0] C joint_physical ep 48 success=1 steps=5
+[pilot seed 0] A mass_only ep 49 success=1 steps=13
+[pilot seed 0] B mass_only ep 49 success=1 steps=4
+[pilot seed 0] C mass_only ep 49 success=1 steps=4
+[pilot seed 0] A joint_physical ep 49 success=1 steps=5
+[pilot seed 0] B joint_physical ep 49 success=1 steps=5
+[pilot seed 0] C joint_physical ep 49 success=1 steps=6

@@ -1,0 +1,40 @@
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[seed 0] loaded threads=1 cases=12
+[seed 0] fresh S00 r0 success=1 steps=16
+[seed 0] fresh S00 r1 success=1 steps=16
+[seed 0] fresh S00 r2 success=1 steps=16
+[seed 0] fresh S01 r0 success=1 steps=16
+[seed 0] fresh S01 r1 success=1 steps=16
+[seed 0] fresh S01 r2 success=1 steps=16
+[seed 0] fresh S02 r0 success=0 steps=100
+[seed 0] fresh S02 r1 success=0 steps=100
+[seed 0] fresh S02 r2 success=0 steps=100
+[seed 0] fresh S03 r0 success=1 steps=54
+[seed 0] fresh S03 r1 success=1 steps=54
+[seed 0] fresh S03 r2 success=1 steps=54
+[seed 0] fresh S04 r0 success=1 steps=14
+[seed 0] fresh S04 r1 success=1 steps=14
+[seed 0] fresh S04 r2 success=1 steps=14
+[seed 0] fresh S05 r0 success=0 steps=100
+[seed 0] fresh S05 r1 success=0 steps=100
+[seed 0] fresh S05 r2 success=0 steps=100
+[seed 0] fresh S06 r0 success=1 steps=36
+[seed 0] fresh S06 r1 success=1 steps=36
+[seed 0] fresh S06 r2 success=1 steps=36
+[seed 0] fresh S07 r0 success=1 steps=73
+[seed 0] fresh S07 r1 success=1 steps=73
+[seed 0] fresh S07 r2 success=1 steps=73
+[seed 0] fresh S24 r0 success=1 steps=1
+[seed 0] fresh S24 r1 success=1 steps=1
+[seed 0] fresh S24 r2 success=1 steps=1
+[seed 0] fresh S25 r0 success=1 steps=1
+[seed 0] fresh S25 r1 success=1 steps=1
+[seed 0] fresh S25 r2 success=1 steps=1
+[seed 0] fresh S26 r0 success=0 steps=100
+[seed 0] fresh S26 r1 success=0 steps=100
+[seed 0] fresh S26 r2 success=0 steps=100
+[seed 0] fresh S27 r0 success=0 steps=100
+[seed 0] fresh S27 r1 success=0 steps=100
+[seed 0] fresh S27 r2 success=0 steps=100

@@ -1,0 +1,9 @@
+param_name,value,success_rate
+actuator_gain_scale,0,0.9816666666666667
+actuator_gain_scale,1,0.995
+actuator_gain_scale,2,0.9816666666666667
+actuator_gain_scale,3,0.9866666666666667
+actuator_gain_scale,5,0.9866666666666667
+actuator_gain_scale,6,0.9866666666666667
+actuator_gain_scale,7,0.9866666666666667
+actuator_gain_scale,10,0.9866666666666667

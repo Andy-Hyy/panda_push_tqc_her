@@ -1,0 +1,19 @@
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[seed 42] threads 1 interop 10 protocol 635b5085a969
+[equivalence] seed 42 L=0.30 ep 0 early_success h50_steps 4 h100_steps 4 warmstart 4.06745
+[equivalence] seed 42 L=0.40 ep 52 late_success h50_steps 50 h100_steps 54 warmstart 4.06745
+[equivalence] seed 42 L=0.50 ep 517 late_success h50_steps 50 h100_steps 61 warmstart 4.06745
+[equivalence] seed 42 L=0.60 ep 223 late_success h50_steps 50 h100_steps 52 warmstart 4.06745
+[equivalence] seed 42 L=0.70 ep 104 late_success h50_steps 50 h100_steps 73 warmstart 4.06745
+[equivalence] seed 42 L=0.80 ep 2 double_failure h50_steps 50 h100_steps 100 warmstart 4.06745
+[equivalence] seed 42 L=0.80 ep 278 late_success h50_steps 50 h100_steps 65 warmstart 4.06745
+[equivalence] seed 42 reverse L=0.80 ep 278 problems 0
+[equivalence] seed 42 reverse L=0.80 ep 2 problems 0
+[equivalence] seed 42 reverse L=0.70 ep 104 problems 0
+[equivalence] seed 42 reverse L=0.60 ep 223 problems 0
+[equivalence] seed 42 reverse L=0.50 ep 517 problems 0
+[equivalence] seed 42 reverse L=0.40 ep 52 problems 0
+[equivalence] seed 42 reverse L=0.30 ep 0 problems 0
+[equivalence] seed 42 passed

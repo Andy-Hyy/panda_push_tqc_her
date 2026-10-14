@@ -1,0 +1,11 @@
+episode_id,rule
+0,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+60,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+120,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+180,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+240,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+300,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+360,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+420,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+480,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"
+540,"episode_id = 60*k for k=0..9, fixed before Phase D outcomes; not chosen from the 119 mismatches"

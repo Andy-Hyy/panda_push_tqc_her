@@ -1,5 +1,9 @@
 import os
-os.chdir(os.path.dirname(os.path.abspath(__file__))) 
+import sys
+
+_HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.normpath(os.path.join(_HERE, "..", "utils")))
+os.chdir(_HERE)
 
 import numpy as np
 import random

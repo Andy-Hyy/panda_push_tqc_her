@@ -1,0 +1,107 @@
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[seed 42] mode formal threads 1 protocol e72dd7e83d71
+[pretest] P1 forward episode 0 success 0 steps 100
+[pretest] P1 forward episode 1 success 1 steps 1
+[pretest] P1 forward episode 2 success 1 steps 10
+[pretest] P1 forward episode 3 success 1 steps 9
+[pretest] P1 forward episode 4 success 1 steps 7
+[pretest] P1 forward episode 5 success 1 steps 8
+[pretest] P1 forward episode 6 success 1 steps 1
+[pretest] P1 forward episode 7 success 1 steps 6
+[pretest] P1 reverse episode 7 matched
+[pretest] P1 reverse episode 6 matched
+[pretest] P1 reverse episode 5 matched
+[pretest] P1 reverse episode 4 matched
+[pretest] P1 reverse episode 3 matched
+[pretest] P1 reverse episode 2 matched
+[pretest] P1 reverse episode 1 matched
+[pretest] P1 reverse episode 0 matched
+[pretest] P2 forward episode 0 success 1 steps 33
+[pretest] P2 forward episode 1 success 1 steps 1
+[pretest] P2 forward episode 2 success 1 steps 29
+[pretest] P2 forward episode 3 success 1 steps 50
+[pretest] P2 forward episode 4 success 0 steps 100
+[pretest] P2 forward episode 5 success 0 steps 100
+[pretest] P2 forward episode 6 success 1 steps 1
+[pretest] P2 forward episode 7 success 0 steps 100
+[pretest] P2 reverse episode 7 matched
+[pretest] P2 reverse episode 6 matched
+[pretest] P2 reverse episode 5 matched
+[pretest] P2 reverse episode 4 matched
+[pretest] P2 reverse episode 3 matched
+[pretest] P2 reverse episode 2 matched
+[pretest] P2 reverse episode 1 matched
+[pretest] P2 reverse episode 0 matched
+[resume] P0 existing episode 0 reproduced
+[resume] P1 existing episode 0 reproduced
+[seed 42] P1 100/600
+[seed 42] P1 125/600
+[seed 42] P1 150/600
+[seed 42] P1 175/600
+[seed 42] P1 200/600
+[seed 42] P1 225/600
+[seed 42] P1 250/600
+[seed 42] P1 275/600
+[seed 42] P1 300/600
+[seed 42] P1 325/600
+[seed 42] P1 350/600
+[seed 42] P1 375/600
+[seed 42] P1 400/600
+[seed 42] P1 425/600
+[seed 42] P1 450/600
+[seed 42] P1 475/600
+[seed 42] P1 500/600
+[seed 42] P1 525/600
+[seed 42] P1 550/600
+[seed 42] P1 575/600
+[seed 42] P1 600/600
+[seed 42] P2 25/600
+[seed 42] P2 50/600
+[seed 42] P2 75/600
+[seed 42] P2 100/600
+[seed 42] P2 125/600
+[seed 42] P2 150/600
+[seed 42] P2 175/600
+[seed 42] P2 200/600
+[seed 42] P2 225/600
+[seed 42] P2 250/600
+[seed 42] P2 275/600
+[seed 42] P2 300/600
+[seed 42] P2 325/600
+[seed 42] P2 350/600
+[seed 42] P2 375/600
+[seed 42] P2 400/600
+[seed 42] P2 425/600
+[seed 42] P2 450/600
+[seed 42] P2 475/600
+[seed 42] P2 500/600
+[seed 42] P2 525/600
+[seed 42] P2 550/600
+[seed 42] P2 575/600
+[seed 42] P2 600/600
+[seed 42] P3 25/600
+[seed 42] P3 50/600
+[seed 42] P3 75/600
+[seed 42] P3 100/600
+[seed 42] P3 125/600
+[seed 42] P3 150/600
+[seed 42] P3 175/600
+[seed 42] P3 200/600
+[seed 42] P3 225/600
+[seed 42] P3 250/600
+[seed 42] P3 275/600
+[seed 42] P3 300/600
+[seed 42] P3 325/600
+[seed 42] P3 350/600
+[seed 42] P3 375/600
+[seed 42] P3 400/600
+[seed 42] P3 425/600
+[seed 42] P3 450/600
+[seed 42] P3 475/600
+[seed 42] P3 500/600
+[seed 42] P3 525/600
+[seed 42] P3 550/600
+[seed 42] P3 575/600
+[seed 42] P3 600/600

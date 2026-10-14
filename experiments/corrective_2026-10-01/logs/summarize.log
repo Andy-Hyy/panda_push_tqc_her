@@ -1,0 +1,9 @@
+wrote /Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/physical_2x2_summary.csv
+rate P0 pooled=0.99944444 mean=0.99944444 sd=0.00096225 ci=(0.99705408, 1.00183481)
+rate P1 pooled=0.87666667 mean=0.87666667 sd=0.01201850 ci=(0.84681105, 0.90652229)
+rate P2 pooled=0.25222222 mean=0.25222222 sd=0.01584064 ci=(0.21287189, 0.29157256)
+rate P3 pooled=0.23388889 mean=0.23388889 sd=0.02583781 ci=(0.16970420, 0.29807358)
+effect physical_P0_minus_P1 pooled=0.12277778 mean=0.12277778 sd=0.01109721 ci=(0.09521077, 0.15034478)
+effect delay_P0_minus_P2 pooled=0.74722222 mean=0.74722222 sd=0.01584064 ci=(0.70787189, 0.78657256)
+effect full_P0_minus_P3 pooled=0.76555556 mean=0.76555556 sd=0.02501851 ci=(0.70340613, 0.82770498)
+effect interaction_P3_minus_P2_minus_P1_plus_P0 pooled=0.10444444 mean=0.10444444 sd=0.01250926 ci=(0.07336973, 0.13551916)

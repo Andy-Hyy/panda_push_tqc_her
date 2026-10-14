@@ -1,0 +1,35 @@
+{
+  "label": "current_implementation_check",
+  "source": "panda_project_xy_DR FrankaPushEnv, attribute goal_xy_range set to 0.8 before reset, goal_range_low/high not rewritten",
+  "init_goal_xy_range": 0.3,
+  "bounds_low_at_init": [
+    0.44999999999999996,
+    -0.15,
+    0.0
+  ],
+  "bounds_high_at_init": [
+    0.75,
+    0.15,
+    0.0
+  ],
+  "bounds_low_after": [
+    0.44999999999999996,
+    -0.15,
+    0.0
+  ],
+  "bounds_high_after": [
+    0.75,
+    0.15,
+    0.0
+  ],
+  "attribute_after": 0.8,
+  "sampled_goal_xy_min": [
+    0.4534547664019739,
+    -0.14085315450671632
+  ],
+  "sampled_goal_xy_max": [
+    0.7477741921251572,
+    0.14724420358354143
+  ],
+  "n": 40
+}

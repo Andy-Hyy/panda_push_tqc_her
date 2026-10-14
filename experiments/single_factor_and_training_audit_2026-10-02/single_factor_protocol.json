@@ -1,0 +1,273 @@
+{
+  "cells": [
+    {
+      "damping_scale": 1.0,
+      "factor": "object_mass",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 0.05,
+      "value": "0.05"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_mass",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 0.1,
+      "value": "0.1"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_mass",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 0.5,
+      "value": "0.5"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_mass",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 2.0,
+      "value": "2"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_mass",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 3.0,
+      "value": "3"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 0.05,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.05"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 0.2,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.2"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 0.5,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.5"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 0.8,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.8"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 1.2,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "1.2"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 1.5,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "1.5"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 2.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "2"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 2.5,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "2.5"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "object_friction",
+      "friction": 3.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "3"
+    },
+    {
+      "damping_scale": 0.001,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.001"
+    },
+    {
+      "damping_scale": 0.01,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.01"
+    },
+    {
+      "damping_scale": 0.02,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.02"
+    },
+    {
+      "damping_scale": 0.05,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.05"
+    },
+    {
+      "damping_scale": 0.08,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.08"
+    },
+    {
+      "damping_scale": 0.1,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.1"
+    },
+    {
+      "damping_scale": 0.2,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.2"
+    },
+    {
+      "damping_scale": 0.3,
+      "factor": "joint_damping_scale",
+      "friction": 1.0,
+      "gain_scale": 1.0,
+      "mass": 1.0,
+      "value": "0.3"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "actuator_gain_scale",
+      "friction": 1.0,
+      "gain_scale": 0.0,
+      "mass": 1.0,
+      "value": "0"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "actuator_gain_scale",
+      "friction": 1.0,
+      "gain_scale": 2.0,
+      "mass": 1.0,
+      "value": "2"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "actuator_gain_scale",
+      "friction": 1.0,
+      "gain_scale": 3.0,
+      "mass": 1.0,
+      "value": "3"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "actuator_gain_scale",
+      "friction": 1.0,
+      "gain_scale": 5.0,
+      "mass": 1.0,
+      "value": "5"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "actuator_gain_scale",
+      "friction": 1.0,
+      "gain_scale": 6.0,
+      "mass": 1.0,
+      "value": "6"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "actuator_gain_scale",
+      "friction": 1.0,
+      "gain_scale": 7.0,
+      "mass": 1.0,
+      "value": "7"
+    },
+    {
+      "damping_scale": 1.0,
+      "factor": "actuator_gain_scale",
+      "friction": 1.0,
+      "gain_scale": 10.0,
+      "mass": 1.0,
+      "value": "10"
+    }
+  ],
+  "damping_definition": "entire dof_damping times scale, including the object free joint",
+  "delay_steps": 0,
+  "device": "cpu",
+  "files": {
+    "checkpoint_seed0": "ab38ff9c17dbde348f0d0048858d4753570c04b2e7f486cacf60135717f085bd",
+    "checkpoint_seed123": "25f64416614872cddcf5dc83075b55fea5f32a81b4ab60caa17454de9f3ea966",
+    "checkpoint_seed42": "e7c4840645dae9949b40c2b58045888a354b8193d3d0ffea429ae1a3ba087f74",
+    "mjb_source": "/Users/hejin/Documents/\u6587\u7a3f - \u4f55\u8fdb\u7684Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/spatial_clean_2026-10-02/cache/panda_push.mjb",
+    "panda_push.mjb": "ff842fd8407c1edde8058bf004774523283bcdc6b81ed33240c945380798fddd",
+    "phaseB_diagnose.py": "4bf4e7d6f705d877e293a7092eea5e8a04fa46b68e5d18443770a056306f7152",
+    "phaseC_mass_implementation.py": "39af69aacb63bbca00fc1acf4e4584ed6413414050b67301d3e552a4643db0b0",
+    "phaseE_formal.py": "6f7cffbedabcefc6f48b39b85b15e04c3d1e1eb82530ea40f50036fb95d603d7",
+    "push.xml": "a5feb6af7c678b11254c05f1a41cf1bddd043b5c2fa93dfbb7c54171bce3f9cb",
+    "round2_common.py": "b580314ce7da67b2cf84263a4ddfee4415c01c355f651e40959c538477ffcc60",
+    "single_factor_formal.py": "c27a801c63dfd5d4ce3bfe178ca0e848bcc3221edadf262921285bdd1bda6e4c"
+  },
+  "friction_definition": "obj_geom friction component 0 only",
+  "gain_definition": "actuator_gainprm column 0 times scale; biasprm unchanged",
+  "goal_noise_applied": false,
+  "goal_xy_range": 0.3,
+  "horizon": 100,
+  "init": "writer C inside clean reset: restore snapshot, scale inertia by m/m0, mj_setConst, mj_resetData, neutral ctrl",
+  "loader": "from_binary_path of copied spatial cache panda_push.mjb",
+  "mass_definition": "writer C uniform-density inertia",
+  "n_episodes": 600,
+  "obj_xy_range": 0.3,
+  "protocol_id": "single_factor_clean_reset_writerC_h100",
+  "protocol_sha256": "d2543e21bfbc89019301a5fcb5519888ac185f251d1bf9165b7e3728cc19ac73",
+  "reset_seed_rule": "4000000+episode_id",
+  "reused_from_p0": [
+    "object_mass=1",
+    "object_friction=1",
+    "actuator_gain_scale=1"
+  ],
+  "success": "object to target distance < 0.05 after at least one env.step",
+  "threads": "torch.set_num_threads(1) and OMP/MKL/OPENBLAS/VECLIB=1; interop unchanged",
+  "writer": "C"
+}

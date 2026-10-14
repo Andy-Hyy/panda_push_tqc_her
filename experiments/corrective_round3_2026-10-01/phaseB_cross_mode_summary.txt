@@ -1,0 +1,64 @@
+within fresh: unstable_outcomes=0 nonzero=none
+within reused_a: unstable_outcomes=0 nonzero=none
+within reused_b: unstable_outcomes=0 nonzero=none
+within clean: unstable_outcomes=0 nonzero=none
+within clean_after_a: unstable_outcomes=0 nonzero=none
+within clean_after_b: unstable_outcomes=0 nonzero=none
+clean_after_a vs clean: outcome 36/36 exact_arrays 0/36 worst=S00 r0 meta_mode maxabs=inf
+clean_after_b vs clean: outcome 36/36 exact_arrays 0/36 worst=S00 r0 meta_mode maxabs=inf
+wrote /Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_round3_2026-10-01/clean_predecessor_comparison.csv rows=216
+fresh vs reused_a repeat0 outcome_flips=9
+  flip S00 fresh 1/16 reused_a 0/100
+  flip S01 fresh 1/16 reused_a 1/23
+  flip S06 fresh 1/36 reused_a 0/100
+  flip S07 fresh 1/73 reused_a 1/75
+  flip S08 fresh 1/46 reused_a 1/30
+  flip S09 fresh 1/49 reused_a 1/27
+  flip S10 fresh 0/100 reused_a 1/52
+  flip S16 fresh 0/100 reused_a 1/41
+  flip S17 fresh 1/38 reused_a 1/41
+  maxabs after_reset__qacc 117.20696053314249
+  maxabs after_reset__qacc_warmstart 117.2069605331425
+  maxabs after_reset__body_mass 0.9
+  maxabs after_reset__dof_damping 0.95
+  maxabs after_reset__gain 4500.0
+  maxabs after_reset__friction0 0.8
+  maxabs before_action__qacc 117.20696053314249
+  maxabs before_action__qacc_warmstart 117.2069605331425
+  maxabs after_first_step__qpos 5.942094384556263e-15
+  maxabs after_first_step__qvel 8.087386045362212e-14
+  maxabs after_first_step__qacc 2.2995112735146336e-11
+  maxabs after_first_step__qacc_warmstart 3.4401752300888895e-11
+fresh vs reused_b repeat0 outcome_flips=9
+  flip S00 fresh 1/16 reused_b 1/48
+  flip S01 fresh 1/16 reused_b 1/56
+  flip S03 fresh 1/54 reused_b 0/100
+  flip S06 fresh 1/36 reused_b 0/100
+  flip S08 fresh 1/46 reused_b 0/100
+  flip S09 fresh 1/49 reused_b 1/29
+  flip S11 fresh 0/100 reused_b 1/64
+  flip S17 fresh 1/38 reused_b 0/100
+  flip S34 fresh 0/100 reused_b 1/78
+  maxabs after_reset__qacc 1.706131590173428e-11
+  maxabs after_reset__qacc_warmstart 1.7985612998927536e-14
+  maxabs before_action__qacc 1.706131590173428e-11
+  maxabs before_action__qacc_warmstart 1.7985612998927536e-14
+  maxabs after_first_step__qpos 2.9859968184961718e-15
+  maxabs after_first_step__qvel 9.021160832481607e-14
+  maxabs after_first_step__qacc 1.7080157535042988e-11
+  maxabs after_first_step__qacc_warmstart 1.6274591312436935e-11
+fresh vs clean repeat0 outcome_flips=6
+  flip S01 fresh 1/16 clean 1/22
+  flip S07 fresh 1/73 clean 1/75
+  flip S08 fresh 1/46 clean 1/29
+  flip S09 fresh 1/49 clean 1/39
+  flip S17 fresh 1/38 clean 1/92
+  flip S22 fresh 1/38 clean 0/100
+  maxabs after_reset__qacc 1.3570915224913174e-11
+  maxabs after_reset__qacc_warmstart 1.4210854715202004e-14
+  maxabs before_action__qacc 1.3570915224913174e-11
+  maxabs before_action__qacc_warmstart 1.4210854715202004e-14
+  maxabs after_first_step__qpos 5.129454413542492e-15
+  maxabs after_first_step__qvel 7.560193479086534e-14
+  maxabs after_first_step__qacc 1.7877128558381662e-11
+  maxabs after_first_step__qacc_warmstart 2.914052440331466e-11

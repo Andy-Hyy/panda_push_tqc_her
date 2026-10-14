@@ -1,0 +1,748 @@
+{
+  "phase": "0",
+  "paper_not_modified": true,
+  "git_commit": null,
+  "git_note": "panda_final is not a git checkout. No commit hash is available for the code that generated Stage 0. The separate GitHub repo panda_mujoco_gym at e9881d9 is a different tree and was not used as the source of these ranges.",
+  "source_files": [
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/utils/domain_rand.py",
+      "sha256": "48f726d07ebb3b262805ba779c1dbc0f5cdadbbd40c37669e160036f48a0bf1c",
+      "bytes": 3807
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/worker_multi_random.py",
+      "sha256": "65a9971cb8306a6816868e6bb1c281790b0690c1f2c5e8f99ac2cb7831c58f39",
+      "bytes": 3899
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/worker_single_physics.py",
+      "sha256": "41b0a55401f811a6aa181cf42216df8c730b9ccf43c5c03f829051a25a8a5d2e",
+      "bytes": 5831
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/test_push_phycial_element_generalization.py",
+      "sha256": "a1f508860b3764c87058cadb4eee64c8d5fa0fc62aa9192481c0ace2862ce14f",
+      "bytes": 4914
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/train_push_basic.py",
+      "sha256": "d167b7b51e606dfce54aaf58ed3dc04db402f433ac84af6a74e4259bdccee87f",
+      "bytes": 6211
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/__init__.py",
+      "sha256": "133904ee870845534940b7d683195c05ed3e0be8c4534b9083ae492327c15ca5",
+      "bytes": 521
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/envs/push.py",
+      "sha256": "8ddfb1bdb47d72c80658bd4b434aafcd4a8e1563acebaf7859d10bfe5fcccea0",
+      "bytes": 719
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/envs/panda_env.py",
+      "sha256": "76045e06159706fd6a00077a801158f6d583a794ec62411c36a4c8fde9221a36",
+      "bytes": 12526
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/assets/push.xml",
+      "sha256": "a5feb6af7c678b11254c05f1a41cf1bddd043b5c2fa93dfbb7c54171bce3f9cb",
+      "bytes": 1734
+    },
+    {
+      "path": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/panda_mujoco_gym/assets/panda_mocap.xml",
+      "sha256": "8c1608812335d02b2b0c7178bc1aae91351cf2c890d1633a2748b352e3d7dd09",
+      "bytes": 15488
+    }
+  ],
+  "checkpoints": [
+    {
+      "training_seed": 0,
+      "run_name": "batch512_her4_seed0_2025-06-17_13-50-58",
+      "checkpoint_used_for_2026_09_29_delay_eval": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_project_physics_generalization/logs/batch512_her4_seed0_2025-06-17_13-50-58/final_model.zip",
+      "training_tree_copy": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_project/logs/FrankaPushSparse_v0_TQC/batch512_her4_seed0_2025-06-17_13-50-58/final_model.zip",
+      "sha256": "ab38ff9c17dbde348f0d0048858d4753570c04b2e7f486cacf60135717f085bd",
+      "training_copy_same_bytes": true,
+      "sb3_version_in_zip": "2.6.0",
+      "system_info_in_zip": "- OS: macOS-15.5-arm64-arm-64bit Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132\n- Python: 3.11.13\n- Stable-Baselines3: 2.6.0\n- PyTorch: 2.7.1\n- GPU Enabled: False\n- Numpy: 2.3.0\n- Cloudpickle: 3.1.1\n- Gymnasium: 1.1.1\n",
+      "hyperparameters": {
+        "learning_rate": 0.001,
+        "gamma": 0.95,
+        "batch_size": 512,
+        "buffer_size": 1000000,
+        "tau": 0.05,
+        "ent_coef": "auto",
+        "top_quantiles_to_drop_per_net": 2,
+        "policy_kwargs": {
+          "net_arch": {
+            "pi": [
+              256,
+              256,
+              256
+            ],
+            "qf": [
+              256,
+              256,
+              256
+            ]
+          },
+          "n_quantiles": 25,
+          "use_sde": false
+        },
+        "replay_buffer_kwargs": {
+          "n_sampled_goal": 4,
+          "goal_selection_strategy": "future"
+        },
+        "seed": 0,
+        "num_timesteps": 1000000,
+        "learning_starts": 100,
+        "gradient_steps": 1,
+        "train_freq": {
+          ":type:": "<class 'stable_baselines3.common.type_aliases.TrainFreq'>",
+          ":serialized:": "gAWVYQAAAAAAAACMJXN0YWJsZV9iYXNlbGluZXMzLmNvbW1vbi50eXBlX2FsaWFzZXOUjAlUcmFpbkZyZXGUk5RLAWgAjBJUcmFpbkZyZXF1ZW5jeVVuaXSUk5SMBHN0ZXCUhZRSlIaUgZQu"
+        },
+        "target_update_interval": 1
+      },
+      "replay_buffer_class_module": "stable_baselines3.her.her_replay_buffer",
+      "replay_buffer_class_name": "HerReplayBuffer"
+    },
+    {
+      "training_seed": 42,
+      "run_name": "batch512_her4_seed42_2025-06-17_23-01-53",
+      "checkpoint_used_for_2026_09_29_delay_eval": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_project_physics_generalization/logs/batch512_her4_seed42_2025-06-17_23-01-53/final_model.zip",
+      "training_tree_copy": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_project/logs/FrankaPushSparse_v0_TQC/batch512_her4_seed42_2025-06-17_23-01-53/final_model.zip",
+      "sha256": "e7c4840645dae9949b40c2b58045888a354b8193d3d0ffea429ae1a3ba087f74",
+      "training_copy_same_bytes": true,
+      "sb3_version_in_zip": "2.6.0",
+      "system_info_in_zip": "- OS: macOS-15.5-arm64-arm-64bit Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132\n- Python: 3.11.13\n- Stable-Baselines3: 2.6.0\n- PyTorch: 2.7.1\n- GPU Enabled: False\n- Numpy: 2.3.0\n- Cloudpickle: 3.1.1\n- Gymnasium: 1.1.1\n",
+      "hyperparameters": {
+        "learning_rate": 0.001,
+        "gamma": 0.95,
+        "batch_size": 512,
+        "buffer_size": 1000000,
+        "tau": 0.05,
+        "ent_coef": "auto",
+        "top_quantiles_to_drop_per_net": 2,
+        "policy_kwargs": {
+          "net_arch": {
+            "pi": [
+              256,
+              256,
+              256
+            ],
+            "qf": [
+              256,
+              256,
+              256
+            ]
+          },
+          "n_quantiles": 25,
+          "use_sde": false
+        },
+        "replay_buffer_kwargs": {
+          "n_sampled_goal": 4,
+          "goal_selection_strategy": "future"
+        },
+        "seed": 42,
+        "num_timesteps": 1000000,
+        "learning_starts": 100,
+        "gradient_steps": 1,
+        "train_freq": {
+          ":type:": "<class 'stable_baselines3.common.type_aliases.TrainFreq'>",
+          ":serialized:": "gAWVYQAAAAAAAACMJXN0YWJsZV9iYXNlbGluZXMzLmNvbW1vbi50eXBlX2FsaWFzZXOUjAlUcmFpbkZyZXGUk5RLAWgAjBJUcmFpbkZyZXF1ZW5jeVVuaXSUk5SMBHN0ZXCUhZRSlIaUgZQu"
+        },
+        "target_update_interval": 1
+      },
+      "replay_buffer_class_module": "stable_baselines3.her.her_replay_buffer",
+      "replay_buffer_class_name": "HerReplayBuffer"
+    },
+    {
+      "training_seed": 123,
+      "run_name": "batch512_her4_seed123_2025-06-18_23-21-02",
+      "checkpoint_used_for_2026_09_29_delay_eval": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_project_physics_generalization/logs/batch512_her4_seed123_2025-06-18_23-21-02/final_model.zip",
+      "training_tree_copy": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_project/logs/FrankaPushSparse_v0_TQC/batch512_her4_seed123_2025-06-18_23-21-02/final_model.zip",
+      "sha256": "25f64416614872cddcf5dc83075b55fea5f32a81b4ab60caa17454de9f3ea966",
+      "training_copy_same_bytes": true,
+      "sb3_version_in_zip": "2.6.0",
+      "system_info_in_zip": "- OS: macOS-15.5-arm64-arm-64bit Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132\n- Python: 3.11.13\n- Stable-Baselines3: 2.6.0\n- PyTorch: 2.7.1\n- GPU Enabled: False\n- Numpy: 2.3.0\n- Cloudpickle: 3.1.1\n- Gymnasium: 1.1.1\n",
+      "hyperparameters": {
+        "learning_rate": 0.001,
+        "gamma": 0.95,
+        "batch_size": 512,
+        "buffer_size": 1000000,
+        "tau": 0.05,
+        "ent_coef": "auto",
+        "top_quantiles_to_drop_per_net": 2,
+        "policy_kwargs": {
+          "net_arch": {
+            "pi": [
+              256,
+              256,
+              256
+            ],
+            "qf": [
+              256,
+              256,
+              256
+            ]
+          },
+          "n_quantiles": 25,
+          "use_sde": false
+        },
+        "replay_buffer_kwargs": {
+          "n_sampled_goal": 4,
+          "goal_selection_strategy": "future"
+        },
+        "seed": 123,
+        "num_timesteps": 1000000,
+        "learning_starts": 100,
+        "gradient_steps": 1,
+        "train_freq": {
+          ":type:": "<class 'stable_baselines3.common.type_aliases.TrainFreq'>",
+          ":serialized:": "gAWVYQAAAAAAAACMJXN0YWJsZV9iYXNlbGluZXMzLmNvbW1vbi50eXBlX2FsaWFzZXOUjAlUcmFpbkZyZXGUk5RLAWgAjBJUcmFpbkZyZXF1ZW5jeVVuaXSUk5SMBHN0ZXCUhZRSlIaUgZQu"
+        },
+        "target_update_interval": 1
+      },
+      "replay_buffer_class_module": "stable_baselines3.her.her_replay_buffer",
+      "replay_buffer_class_name": "HerReplayBuffer"
+    }
+  ],
+  "checkpoint_identification": {
+    "stored_in_stage0_csv": false,
+    "decision": "Use the three batch512_her4 final_model.zip files dated 2025-06-17/18. Their bytes match the training-tree copies under panda_project/logs. The 2026-09-29 delay script hardcoded these paths. The Stage 0 CSV names are eval_multi_param_seed{0,42,123}.csv and the three files have different success columns, so three policies were evaluated. The CSV itself does not store a path.",
+    "not_used": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/logs/FrankaPushSparse_v0_TQC/batch256_her8_seed0_2025-06-18_07-49-51/final_model.zip"
+  },
+  "tqc_her_configuration_from_checkpoint": {
+    "policy": "MultiInputPolicy",
+    "learning_rate": 0.001,
+    "buffer_size": 1000000,
+    "batch_size": 512,
+    "tau": 0.05,
+    "gamma": 0.95,
+    "top_quantiles_to_drop_per_net": 2,
+    "ent_coef": "auto",
+    "n_quantiles": 25,
+    "net_arch": {
+      "pi": [
+        256,
+        256,
+        256
+      ],
+      "qf": [
+        256,
+        256,
+        256
+      ]
+    },
+    "replay_buffer": "HerReplayBuffer",
+    "n_sampled_goal": 4,
+    "goal_selection_strategy": "future",
+    "source": "read from final_model.zip data, seed 0. train_push_basic.py contains the same literals."
+  },
+  "environment_defaults_measured": {
+    "registered_max_episode_steps": 50,
+    "live_spec_max_episode_steps": 50,
+    "n_substeps": 25,
+    "mujoco_timestep_s": 0.002,
+    "physics_steps_per_policy_decision": 250,
+    "control_period_s": 0.5,
+    "distance_threshold_m": 0.05,
+    "goal_xy_range_m": 0.3,
+    "obj_xy_range_m": 0.3,
+    "goal_range_low": [
+      0.44999999999999996,
+      -0.15,
+      0.0
+    ],
+    "goal_range_high": [
+      0.75,
+      0.15,
+      0.0
+    ],
+    "obj_range_low": [
+      0.44999999999999996,
+      -0.15,
+      0.0
+    ],
+    "obj_range_high": [
+      0.75,
+      0.15,
+      0.0
+    ],
+    "object_body_mass_kg": 1.0,
+    "object_geom_friction": [
+      1.0,
+      0.005,
+      0.0001
+    ],
+    "object_sliding_friction": 1.0,
+    "dof_damping": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "joint_names": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6",
+      "joint7",
+      "finger_joint1",
+      "finger_joint2",
+      "obj_joint"
+    ],
+    "actuator_names": [
+      "actuator1",
+      "actuator2",
+      "actuator3",
+      "actuator4",
+      "actuator5",
+      "actuator6",
+      "actuator7",
+      "r_gripper_finger_joint",
+      "l_gripper_finger_joint"
+    ],
+    "actuator_gainprm_col0": [
+      4500.0,
+      4500.0,
+      3500.0,
+      3500.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      500.0,
+      500.0
+    ],
+    "action_space_low": [
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "action_space_high": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "reset_seed_0_achieved_goal": [
+      0.6410885061964363,
+      -0.06906398587083891,
+      0.01995554002123718
+    ],
+    "reset_seed_0_desired_goal": [
+      0.4549582906585587,
+      0.09398107176008172,
+      0.01995554002123718
+    ],
+    "block_gripper": true,
+    "reward_type": "sparse"
+  },
+  "success_criterion": {
+    "code": "FrankaEnv._is_success: goal_distance(achieved_goal, desired_goal) < distance_threshold",
+    "distance_threshold_m": 0.05,
+    "episode_terminates_on_success": true,
+    "source": "panda_mujoco_gym/envs/panda_env.py step() and _is_success()"
+  },
+  "goal_range_in_physical_task": {
+    "constructor": "FrankaPushEnv goal_xy_range=0.3, obj_xy_range=0.3, goal_x_offset=0.0, goal_z_range=0.0, then panda_env adds 0.6 to both x bounds",
+    "source": "panda_mujoco_gym/envs/push.py and panda_env.py"
+  },
+  "max_episode_steps": {
+    "gym_registration": 50,
+    "registration_source": "panda_mujoco_gym/__init__.py register(..., max_episode_steps=50)",
+    "single_factor_worker": "worker_single_physics.py calls gym.make, so the registered TimeLimit of 50 applies. Its own MAX_EPISODE_STEPS=100 cannot extend an episode the TimeLimit already ended.",
+    "stage0_wrapper": 100,
+    "stage0_source": "worker_multi_random.py MAX_EPISODE_STEPS=100 passed to DomainRandomizationWrapper. That class subclasses FrankaPushEnv directly and is not wrapped by gymnasium TimeLimit. compute_truncated returns False, so the wrapper's counter is the horizon.",
+    "delay_sweep_2026_09_29": 50,
+    "delay_sweep_source": "test_push_delay_generalization.py uses gym.make('FrankaPushSparse-v0')"
+  },
+  "xml_defaults_as_written": {
+    "object_geom_mass": 1,
+    "object_geom_friction_attribute": "1",
+    "object_free_joint_damping": 0.01,
+    "arm_joint_damping": 1,
+    "actuator_gainprm": [
+      4500,
+      4500,
+      3500,
+      3500,
+      2000,
+      2000,
+      2000,
+      500,
+      500
+    ],
+    "source": "panda_mujoco_gym/assets/push.xml and panda_mocap.xml"
+  },
+  "stage0_ranges_from_code": {
+    "source_files": [
+      "worker_multi_random.py",
+      "utils/domain_rand.py"
+    ],
+    "mass": {
+      "distribution": "uniform",
+      "low": 0.05,
+      "high": 3.0,
+      "inclusive": "numpy uniform continuous"
+    },
+    "friction": {
+      "distribution": "uniform",
+      "low": 0.05,
+      "high": 3.0,
+      "applied_to": "geom_friction[obj_geom, 0]"
+    },
+    "damping_scale": {
+      "distribution": "uniform",
+      "low": 0.001,
+      "high": 0.3,
+      "applied_as": "model.dof_damping[:] = original_dof_damping * scale"
+    },
+    "actuator_gain_scale": {
+      "distribution": "uniform",
+      "low": 0.0,
+      "high": 10.0,
+      "applied_as": "model.actuator_gainprm[:, 0] = original_gainprm[:, 0] * scale"
+    },
+    "delay_steps": {
+      "distribution": "numpy randint",
+      "low_inclusive": 1,
+      "high_exclusive": 10,
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "code": "DELAY_RANGE = (1, 10); np.random.randint(*delay_range)"
+    },
+    "goal_noise": {
+      "distribution": "uniform per axis",
+      "low": [
+        -0.15,
+        -0.15,
+        0.0
+      ],
+      "high": [
+        0.15,
+        0.15,
+        0.0
+      ],
+      "applied_as": "added to self.goal after super()._sample_goal(), inside reset, after the observation has already been built"
+    },
+    "episodes": "200 per numpy seed in [0, 42, 123], so 600 episodes per model file",
+    "numpy_seeds_are_not_training_seeds": true
+  },
+  "saved_stage0_csv": {
+    "files": {
+      "0": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/physical_element/eval_multi_param_seed0.csv",
+      "42": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/physical_element/eval_multi_param_seed42.csv",
+      "123": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/physical_element/eval_multi_param_seed123.csv"
+    },
+    "parameter_columns_identical_across_model_files": true,
+    "per_model": {
+      "0": {
+        "n": 600,
+        "successes": 114,
+        "success_rate": 0.19,
+        "delay_values_present": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "by_delay": {
+          "1": {
+            "n": 67,
+            "successes": 38,
+            "success_rate": 0.5671641791044776
+          },
+          "2": {
+            "n": 62,
+            "successes": 12,
+            "success_rate": 0.1935483870967742
+          },
+          "3": {
+            "n": 57,
+            "successes": 10,
+            "success_rate": 0.17543859649122806
+          },
+          "4": {
+            "n": 69,
+            "successes": 11,
+            "success_rate": 0.15942028985507245
+          },
+          "5": {
+            "n": 64,
+            "successes": 10,
+            "success_rate": 0.15625
+          },
+          "6": {
+            "n": 70,
+            "successes": 8,
+            "success_rate": 0.11428571428571428
+          },
+          "7": {
+            "n": 63,
+            "successes": 4,
+            "success_rate": 0.06349206349206349
+          },
+          "8": {
+            "n": 68,
+            "successes": 11,
+            "success_rate": 0.16176470588235295
+          },
+          "9": {
+            "n": 80,
+            "successes": 10,
+            "success_rate": 0.125
+          }
+        }
+      },
+      "42": {
+        "n": 600,
+        "successes": 133,
+        "success_rate": 0.22166666666666668,
+        "delay_values_present": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "by_delay": {
+          "1": {
+            "n": 67,
+            "successes": 39,
+            "success_rate": 0.582089552238806
+          },
+          "2": {
+            "n": 62,
+            "successes": 19,
+            "success_rate": 0.3064516129032258
+          },
+          "3": {
+            "n": 57,
+            "successes": 13,
+            "success_rate": 0.22807017543859648
+          },
+          "4": {
+            "n": 69,
+            "successes": 13,
+            "success_rate": 0.18840579710144928
+          },
+          "5": {
+            "n": 64,
+            "successes": 8,
+            "success_rate": 0.125
+          },
+          "6": {
+            "n": 70,
+            "successes": 14,
+            "success_rate": 0.2
+          },
+          "7": {
+            "n": 63,
+            "successes": 9,
+            "success_rate": 0.14285714285714285
+          },
+          "8": {
+            "n": 68,
+            "successes": 7,
+            "success_rate": 0.10294117647058823
+          },
+          "9": {
+            "n": 80,
+            "successes": 11,
+            "success_rate": 0.1375
+          }
+        }
+      },
+      "123": {
+        "n": 600,
+        "successes": 113,
+        "success_rate": 0.18833333333333332,
+        "delay_values_present": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "by_delay": {
+          "1": {
+            "n": 67,
+            "successes": 41,
+            "success_rate": 0.6119402985074627
+          },
+          "2": {
+            "n": 62,
+            "successes": 20,
+            "success_rate": 0.3225806451612903
+          },
+          "3": {
+            "n": 57,
+            "successes": 7,
+            "success_rate": 0.12280701754385964
+          },
+          "4": {
+            "n": 69,
+            "successes": 9,
+            "success_rate": 0.13043478260869565
+          },
+          "5": {
+            "n": 64,
+            "successes": 10,
+            "success_rate": 0.15625
+          },
+          "6": {
+            "n": 70,
+            "successes": 8,
+            "success_rate": 0.11428571428571428
+          },
+          "7": {
+            "n": 63,
+            "successes": 3,
+            "success_rate": 0.047619047619047616
+          },
+          "8": {
+            "n": 68,
+            "successes": 9,
+            "success_rate": 0.1323529411764706
+          },
+          "9": {
+            "n": 80,
+            "successes": 6,
+            "success_rate": 0.075
+          }
+        }
+      }
+    },
+    "manuscript_22_56_and_76_50": "Neither 0.2256 nor 0.7650 is the success rate stored in these CSV files. They are not used as a target."
+  },
+  "single_factor_ranges_from_code": {
+    "source": "test_push_phycial_element_generalization.py",
+    "object_mass": [
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "object_friction": [
+      0.05,
+      0.2,
+      0.5,
+      0.8,
+      1.0,
+      1.2,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "joint_damping_scale": [
+      0.001,
+      0.01,
+      0.02,
+      0.05,
+      0.08,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "actuator_gain_scale": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      10
+    ],
+    "episodes": "worker_single_physics.py: 200 episodes x seeds [0, 42, 123] per grid point, on one model",
+    "does_not_include_delay": true
+  },
+  "delay_semantics_gate": {
+    "trace": "/Users/hejin/Documents/文稿 - 何进的Mac mini/Panda_Mujoco_Gym/panda_final/data_and_analysis/corrective_2026-10-01/delay_semantics_trace.csv",
+    "command_sequence": "A_t = [0.1*(t+1), 0, 0] for t=0..11. Zero is reserved for the initial buffer.",
+    "corrective_delay_0_applies_current_action": true,
+    "stage0_wrapper_delay_0_applies_current_action": false,
+    "stage0_wrapper_matches_corrective_at_delay_1_2_3": true,
+    "mismatches": [],
+    "gate_pass": true,
+    "meaning": {
+      "corrective_delay_0": "no delay; the commanded action is applied on that timestep",
+      "corrective_and_stage0_delay_d_for_d_ge_1": "the action commanded d timesteps earlier is applied; the first d timesteps apply a zero action",
+      "stage0_delay_0": "not a no-delay condition. DomainRandomizationWrapper indexes action_buffer[-delay]. Python treats [-0] as [0], the oldest slot of a length-10 buffer. Stage 0 never samples this value.",
+      "stage0_sampled_delay_1": "one full decision of latency, not the training condition"
+    }
+  },
+  "phase1_locked_decisions": {
+    "conditions": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "episodes_per_model_per_condition": 600,
+    "models": [
+      0,
+      42,
+      123
+    ],
+    "horizon": 100,
+    "horizon_reason": "Match Stage 0's wrapper horizon. All four cells use it. The registered 50-step TimeLimit is not used in this 2x2.",
+    "true_zero_delay": "corrective delay_steps=0, current action applied",
+    "delay_distribution_for_P2_and_P3": "the delay_steps column of the saved Stage 0 CSV, values 1..9, not redrawn",
+    "physical_draws_for_P1_and_P3": "mass, friction, damping_scale, gain_scale columns of eval_multi_param_seed0.csv, shared across the three models because the three files contain the same parameter rows",
+    "goal_noise": "not applied in any cell. The locked 2x2 does not include it. This is a deviation from bitwise Stage 0.",
+    "scene_seed": "reset_seed = 4000000 + episode_id, shared across conditions and models. Stage 0 did not seed the environment.",
+    "policy": "deterministic predict, no retraining",
+    "phase3_not_run": true
+  },
+  "eval_environment_versions": {
+    "python": "3.12.10",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "numpy": "2.2.6",
+    "gymnasium": "1.1.1",
+    "gymnasium_robotics": "1.3.1",
+    "mujoco": "3.1.6",
+    "stable_baselines3": "2.6.0",
+    "sb3_contrib": "2.6.0",
+    "torch": "2.14.0",
+    "pandas": "3.0.6"
+  }
+}

@@ -1,0 +1,143 @@
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Using cpu device
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 92.4     |
+|    ep_rew_mean     | -92.3    |
+|    success_rate    | 0.0769   |
+| time/              |          |
+|    episodes        | 50       |
+|    fps             | 374      |
+|    time_elapsed    | 12       |
+|    total_timesteps | 4806     |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 96       |
+|    ep_rew_mean     | -96      |
+|    success_rate    | 0.04     |
+| time/              |          |
+|    episodes        | 100      |
+|    fps             | 425      |
+|    time_elapsed    | 22       |
+|    total_timesteps | 9606     |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 99       |
+|    ep_rew_mean     | -99      |
+|    success_rate    | 0.01     |
+| time/              |          |
+|    episodes        | 150      |
+|    fps             | 317      |
+|    time_elapsed    | 47       |
+|    total_timesteps | 15000    |
+| train/             |          |
+|    actor_loss      | -16.2    |
+|    critic_loss     | 0.0189   |
+|    ent_coef        | 0.435    |
+|    ent_coef_loss   | -4.21    |
+|    learning_rate   | 0.001    |
+|    n_updates       | 833      |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 98       |
+|    ep_rew_mean     | -98      |
+|    success_rate    | 0.02     |
+| time/              |          |
+|    episodes        | 200      |
+|    fps             | 278      |
+|    time_elapsed    | 70       |
+|    total_timesteps | 19800    |
+| train/             |          |
+|    actor_loss      | -7.13    |
+|    critic_loss     | 0.0184   |
+|    ent_coef        | 0.196    |
+|    ent_coef_loss   | -8.22    |
+|    learning_rate   | 0.001    |
+|    n_updates       | 1633     |
+---------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+Using cpu device
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 100      |
+|    ep_rew_mean     | -100     |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 50       |
+|    fps             | 458      |
+|    time_elapsed    | 11       |
+|    total_timesteps | 5400     |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 100      |
+|    ep_rew_mean     | -100     |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 100      |
+|    fps             | 476      |
+|    time_elapsed    | 21       |
+|    total_timesteps | 10200    |
+| train/             |          |
+|    actor_loss      | -4.49    |
+|    critic_loss     | 0.0588   |
+|    ent_coef        | 0.968    |
+|    ent_coef_loss   | -0.162   |
+|    learning_rate   | 0.001    |
+|    n_updates       | 33       |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 99       |
+|    ep_rew_mean     | -99      |
+|    success_rate    | 0.01     |
+| time/              |          |
+|    episodes        | 150      |
+|    fps             | 338      |
+|    time_elapsed    | 44       |
+|    total_timesteps | 15000    |
+| train/             |          |
+|    actor_loss      | -16.6    |
+|    critic_loss     | 0.0182   |
+|    ent_coef        | 0.435    |
+|    ent_coef_loss   | -4.2     |
+|    learning_rate   | 0.001    |
+|    n_updates       | 833      |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 97       |
+|    ep_rew_mean     | -97      |
+|    success_rate    | 0.03     |
+| time/              |          |
+|    episodes        | 200      |
+|    fps             | 292      |
+|    time_elapsed    | 67       |
+|    total_timesteps | 19806    |
+| train/             |          |
+|    actor_loss      | -7.53    |
+|    critic_loss     | 0.0141   |
+|    ent_coef        | 0.195    |
+|    ent_coef_loss   | -8.24    |
+|    learning_rate   | 0.001    |
+|    n_updates       | 1634     |
+---------------------------------
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+{"passed":true,"protocol_sha256":"6c6d6c39a858fbf32cda4c57bd30f766646e7ec4313c7f8a07156203362e90cd"}

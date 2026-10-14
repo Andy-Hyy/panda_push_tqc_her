@@ -1,0 +1,25 @@
+model seed,param_name,value,success_rate
+0,joint_damping_scale,0.001,0.995
+0,joint_damping_scale,0.01,0.9933333333333333
+0,joint_damping_scale,0.02,0.995
+0,joint_damping_scale,0.05,0.995
+0,joint_damping_scale,0.08,0.995
+0,joint_damping_scale,0.1,0.995
+0,joint_damping_scale,0.2,0.995
+0,joint_damping_scale,0.3,0.995
+42,joint_damping_scale,0.001,1
+42,joint_damping_scale,0.01,1
+42,joint_damping_scale,0.02,1
+42,joint_damping_scale,0.05,0.995
+42,joint_damping_scale,0.08,1
+42,joint_damping_scale,0.1,1
+42,joint_damping_scale,0.2,1
+42,joint_damping_scale,0.3,1
+123,joint_damping_scale,0.001,1
+123,joint_damping_scale,0.01,1
+123,joint_damping_scale,0.02,1
+123,joint_damping_scale,0.05,1
+123,joint_damping_scale,0.08,1
+123,joint_damping_scale,0.1,1
+123,joint_damping_scale,0.2,1
+123,joint_damping_scale,0.3,0.996666667

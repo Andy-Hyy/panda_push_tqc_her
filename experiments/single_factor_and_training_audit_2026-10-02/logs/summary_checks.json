@@ -1,0 +1,151 @@
+{
+  "problem_count": 0,
+  "problems": [],
+  "warnings": [],
+  "new_rows": 52200,
+  "failed_rows": 726,
+  "failure_npz": 726,
+  "traces": 29,
+  "protocol_id": "single_factor_clean_reset_writerC_h100",
+  "protocol_sha256": "d2543e21bfbc89019301a5fcb5519888ac185f251d1bf9165b7e3728cc19ac73",
+  "p0_successes": 1799,
+  "pose_mismatch_across_policies": 0,
+  "pose_mismatch_versus_p0": 0,
+  "near_starts_new_rows": 3567,
+  "near_starts_p0": 123,
+  "goal_z_min": 0.0199555400212371,
+  "goal_z_max": 0.0199555400212371,
+  "failure_steps": {
+    "100": 726
+  },
+  "failures_at_100": 726,
+  "highest_failure_cells": [
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.001,
+      "failures": 96
+    },
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.01,
+      "failures": 85
+    },
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.02,
+      "failures": 75
+    },
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.05,
+      "failures": 70
+    },
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.08,
+      "failures": 67
+    },
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.1,
+      "failures": 57
+    },
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.3,
+      "failures": 29
+    },
+    {
+      "factor": "joint_damping_scale",
+      "value": 0.2,
+      "failures": 29
+    },
+    {
+      "factor": "actuator_gain_scale",
+      "value": 0.0,
+      "failures": 27
+    },
+    {
+      "factor": "actuator_gain_scale",
+      "value": 10.0,
+      "failures": 18
+    },
+    {
+      "factor": "actuator_gain_scale",
+      "value": 7.0,
+      "failures": 18
+    },
+    {
+      "factor": "actuator_gain_scale",
+      "value": 6.0,
+      "failures": 18
+    }
+  ],
+  "friction_0.05_versus_0.2_0.5_0.8": {
+    "0.2": {
+      "success_flips": 0,
+      "step_changes": 0,
+      "final_distance_changes": 0
+    },
+    "0.5": {
+      "success_flips": 0,
+      "step_changes": 0,
+      "final_distance_changes": 0
+    },
+    "0.8": {
+      "success_flips": 0,
+      "step_changes": 0,
+      "final_distance_changes": 0
+    }
+  },
+  "gain_3_versus_5_6_7_10": {
+    "5": {
+      "success_flips": 0,
+      "step_changes": 16,
+      "final_distance_changes": 47
+    },
+    "6": {
+      "success_flips": 0,
+      "step_changes": 16,
+      "final_distance_changes": 47
+    },
+    "7": {
+      "success_flips": 0,
+      "step_changes": 16,
+      "final_distance_changes": 47
+    },
+    "10": {
+      "success_flips": 0,
+      "step_changes": 16,
+      "final_distance_changes": 47
+    }
+  },
+  "damping_0.2_versus_0.3": {
+    "0.3": {
+      "success_flips": 30,
+      "step_changes": 160,
+      "final_distance_changes": 1677
+    }
+  },
+  "p0_failure_followup": [
+    {
+      "policy_seed": 0,
+      "episode_id": 301,
+      "still_failed": [
+        {
+          "factor": "joint_damping_scale",
+          "value": 0.001
+        }
+      ]
+    }
+  ],
+  "failure_final_distance_median": {
+    "actuator_gain_scale": 0.1215602641387094,
+    "joint_damping_scale": 0.0794422649717872,
+    "object_friction": 0.1525607724991552,
+    "object_mass": 0.0666657085137597
+  },
+  "lowest_mean_pct": 94.66666666666667,
+  "highest_mean_pct": 100.0,
+  "cells_below_98": 6
+}

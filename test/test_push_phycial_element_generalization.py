@@ -11,10 +11,11 @@ PHYSICS_PARAMS = {
     "joint_damping_scale": [0.001, 0.01, 0.02, 0.05, 0.08, 0.1, 0.2, 0.3],
     "actuator_gain_scale": [0, 1, 2, 3, 5, 6, 7, 10]
 }
-PHYSICS_WORKER_SCRIPT = "worker_single_physics.py" # 单因素测试使用的 "工人" 脚本
+_EVAL = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "eval")
+PHYSICS_WORKER_SCRIPT = os.path.join(_EVAL, "worker_single_physics.py")
 
 # --- 多参数联合扰动测试的定义 ---
-MULTI_PARAM_WORKER_SCRIPT = "worker_multi_random.py" # 多因素测试使用的 "工人" 脚本
+MULTI_PARAM_WORKER_SCRIPT = os.path.join(_EVAL, "worker_multi_random.py")
 
 
 def find_models(root_dir):

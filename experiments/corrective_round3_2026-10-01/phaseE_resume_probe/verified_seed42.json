@@ -1,0 +1,11 @@
+{
+  "compared": [
+    "P1:1",
+    "P1:0",
+    "P2:1",
+    "P2:0"
+  ],
+  "protocol_id": "phaseE_clean_reset_writerC_h100",
+  "protocol_sha256": "e72dd7e83d71991f995dc67b0c679d2b7736a8ffe5c51ac8ab9ddbf067f2f956",
+  "seed": 42
+}
