@@ -70,7 +70,7 @@ if __name__ == "__main__":
         "--episodes",
         type=int,
         default=200,
-        help="用于评估的总回合数，默认为100。"
+        help="用于评估的总回合数，默认为200。"
     )
     parser.add_argument(
         "--seed",

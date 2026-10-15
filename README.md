@@ -27,6 +27,8 @@ pip install -r requirements.txt
 export PYTHONPATH="$PWD:$PYTHONPATH"
 ```
 
+`requirements-delay-eval.txt` pins the June 2025 stack that loads the three baselines. Use that file when running `test/test_push_delay_generalization.py`.
+
 ## Training
 
 ```bash
@@ -38,7 +40,15 @@ python train/train_fixed_spatial.py
 python train/train_gamma.py --seed 0 --gamma 0.95
 ```
 
-`train/train_curriculum.py` and `train/train_dr_multi-phy-elements_model-curriculum.py` are the curriculum runs. `train/run_curriculum.sh` runs the three curriculum stages. `train/run_wrapper_gamma_experiments.sh` runs the remaining gamma sweeps.
+`train/train_dr_spatial.py` and `train/train_fixed_spatial.py` take no arguments. Each one trains seeds 42, 123, and 0. They are the June 2025 scripts. The October 2026 SpatialDR and Fixed Large comparison is:
+
+```bash
+python experiments/spatial_training_controlled_2026-10-02/scripts/train_controlled.py --method spatial_dr --seed 0
+```
+
+`--method` is `spatial_dr` or `fixed_large`.
+
+`train/train_curriculum.py` needs `--stage` and `--seed`. `train/run_curriculum.sh` runs its three stages. `train/train_dr_multi-phy-elements_model-curriculum.py` is the other curriculum trainer and takes no arguments. `train/run_wrapper_gamma_experiments.sh` runs the remaining gamma sweeps.
 
 ## Evaluation
 
@@ -48,10 +58,13 @@ python test/test_push_basic_photo.py --model-path path/to/final_model.zip
 python test/test_push_phycial_element_generalization.py --test-type physics --models-dir ./logs
 python test/test_push_phycial_element_generalization.py --test-type multi --models-dir ./logs
 python test/test_push_spatial_generalization.py --model-path path/to/final_model.zip
+python test/test_dr_push.py --model-path path/to/final_model.zip
 python test/test_push_delay_generalization.py --model-seed 0
+python test/evaluate_robustness.py --model-path path/to/final_model.zip --param-name object_mass
+python test/evaluate_robustness_extreme_joint.py --model-path path/to/final_model.zip
 ```
 
-The physics launcher keeps the filename `test_push_phycial_element_generalization.py`. It calls the workers in `eval/`. `eval/test_multi_worker.py` is the coupled multi-parameter worker.
+The physics launcher keeps the filename `test_push_phycial_element_generalization.py`. It calls `eval/worker_single_physics.py` and `eval/worker_multi_random.py`. `eval/test_multi_worker.py` is the coupled multi-parameter worker and takes `--model-path` and `--output-csv`.
 
 `test/test_push_delay_generalization.py` reads the three June 2025 baselines from `models/`:
 
@@ -74,8 +87,19 @@ panda_push_tqc_her/
 │   ├── train_dr_spatial.py
 │   ├── train_fixed_spatial.py
 │   ├── train_curriculum.py
-│   └── train_gamma.py
+│   ├── train_dr_multi-phy-elements_model-curriculum.py
+│   ├── train_gamma.py
+│   ├── run_curriculum.sh
+│   └── run_wrapper_gamma_experiments.sh
 ├── test/
+│   ├── test_push_basic.py
+│   ├── test_push_basic_photo.py
+│   ├── test_push_delay_generalization.py
+│   ├── test_push_phycial_element_generalization.py
+│   ├── test_push_spatial_generalization.py
+│   ├── test_dr_push.py
+│   ├── evaluate_robustness.py
+│   └── evaluate_robustness_extreme_joint.py
 ├── eval/
 │   ├── worker_single_physics.py
 │   ├── worker_multi_random.py

@@ -2,6 +2,8 @@
 
 2026 年 10 月在 2025 年 6 月那三个 `batch512_her4` 检查点之后补做的评测，以及 SpatialDR / Fixed Large 的受控重训。数字以各目录里的报告为准。
 
+日常训练和评测入口在仓库的 `train/`、`test/` 和 `eval/`。每一轮自己的脚本在对应目录的 `scripts/`。2025 年 6 月三个检查点的 `final_model.zip` 留在本机；`test/test_push_delay_generalization.py` 按 `models/batch512_her4_seed*_*/final_model.zip` 读取，并把汇总写进 `physical_element/`。
+
 没有放进来的内容：冒烟运行、中断后废弃的 Fixed Large 种子 0，以及编译出来的 `panda_push.mjb` 缓存。正式模型仍在 `spatial_training_controlled_2026-10-02/runs/`。
 
 | 目录 | 内容 |
